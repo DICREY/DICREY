@@ -1,0 +1,16 @@
+<section class="content">
+    <h3>Proyectos</h3>
+    <div class="projects-grid" id="projects">
+        @for (project of projects.projects(); track $index) {
+            <app-project-card [name]="project.name" [description]="project.description" [link]="project.link"></app-project-card>
+        }
+        
+
+        <a class="project-card more" href="https://github.com/DICREY" target="_blank" rel="noopener noreferrer">
+            <div class="project-meta">
+                <h4>Ver más en GitHub</h4>
+                <p class="proj-desc">Ir al perfil para ver todos los repositorios.</p>
+            </div>
+        </a>
+    </div>
+</section>

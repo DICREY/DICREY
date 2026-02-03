@@ -1,0 +1,9 @@
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--accent), #2b0050);
+    box-shadow: 0 8px 22px rgba(91, 49, 255, 0.14);
+    filter: saturate(1.05);
+    transform: translateY(-6px);
+}
