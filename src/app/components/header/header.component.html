@@ -1,0 +1,7 @@
+<header class="app-header">
+  <nav class="nav">
+    @for (page of pages(); track $index) {
+        <button class="nav-btn" [routerLink]="page.link">{{page.name}}</button>
+    }
+  </nav>
+</header>

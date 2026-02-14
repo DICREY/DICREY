@@ -1,0 +1,18 @@
+:host {
+    display: block
+}
+
+.sm-descripcion {
+    padding: .5rem 1rem;
+    color: var(--muted)
+}
+
+.sm-descripcion h2 {
+    color: var(--accent);
+    margin-bottom: .5rem
+}
+
+.sm-descripcion p {
+    line-height: 1.5;
+    font-size: var(--md)
+}

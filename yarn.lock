@@ -1263,6 +1263,13 @@
   dependencies:
     tslib "^2.3.0"
 
+"@ng-icons/simple-icons@^33.1.0":
+  version "33.1.0"
+  resolved "https://registry.yarnpkg.com/@ng-icons/simple-icons/-/simple-icons-33.1.0.tgz#c57cb098e51fa3b493c07636821df1fef1b9f711"
+  integrity sha512-pXRqiFgYlN2C5m9JsY7sZ29FcoNLq27SOx55k0clk5aCOHddvDpP6CftvBR2m0/pTNL144dpRt9Vd+W6xnYxTQ==
+  dependencies:
+    tslib "^2.3.0"
+
 "@npmcli/agent@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@npmcli/agent/-/agent-4.0.0.tgz#2bb2b1c0a170940511554a7986ae2a8be9fedcce"

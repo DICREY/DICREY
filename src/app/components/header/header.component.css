@@ -1,0 +1,39 @@
+.app-header {
+  position: sticky;
+  top: 0%;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  padding: .8rem 1.2rem;
+  border-radius: .8rem;
+  backdrop-filter: blur(.4rem);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  background: var(--card);
+  color: var(--muted);
+  border: 1px solid rgba(255,255,255,0.04);
+  padding: .5rem .7rem;
+  border-radius: 10px;
+  font-size: var(--md);
+  cursor: pointer;
+  transition: all 180ms ease-in-out;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(107,73,255,0.08);
+  color: var(--accent);
+  border-color: rgba(107,73,255,0.2);
+}
+
+.nav-btn:active {
+  transform: translateY(0);
+}

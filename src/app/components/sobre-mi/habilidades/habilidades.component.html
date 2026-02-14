@@ -1,0 +1,11 @@
+<div class="sm-card">
+    <h3>Habilidades Técnicas</h3>
+    <div class="badges">
+        @for (item of skills(); track $index) {
+            <span>
+                <ng-icon [name]="item.icon" class=""></ng-icon>
+                {{ item.name }}
+            </span>
+        }
+    </div>
+</div>

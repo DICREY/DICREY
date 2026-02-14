@@ -1,0 +1,8 @@
+<div class="sm-card">
+    <h3>Historial Académico</h3>
+    <ul>
+        @for (item of historial(); track $index) {
+            <li><strong>{{item.year}}</strong> - {{item.name}}</li>
+        }
+    </ul>
+</div>

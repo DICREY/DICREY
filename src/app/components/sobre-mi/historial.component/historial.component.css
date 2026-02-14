@@ -1,0 +1,25 @@
+:host {
+    display: block
+}
+
+.sm-card {
+    background: var(--card);
+    padding: 12px;
+    border-radius: 12px;
+    color: var(--muted)
+}
+
+.sm-card h3 {
+    color: var(--accent);
+    margin-bottom: 8px
+}
+
+.sm-card ul {
+    list-style: none;
+    padding-left: 0
+}
+
+.sm-card li {
+    padding: 6px 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.02)
+}

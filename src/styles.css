@@ -10,15 +10,15 @@
   /* bluish purple */
   --muted: #b9aef5;
   --glass: rgba(255, 255, 255, 0.03);
-  --radius: 16px;
+  --radius: 1rem;
   --white: #00161a;
   --black: white;
-  --dark-cyan: rgb(95, 0, 139);
+  --dark-cyan: rgb(60, 0, 87);
   --text-input-field: rgba(0, 139, 139, 0.144);
   --aqua: aqua;
-  --sm: 14px;
-  --md: 16px;
-  --lg: 18px;
+  --sm: .9rem;
+  --md: 1rem;
+  --lg: 1.1rem;
 }
 
 
@@ -28,19 +28,40 @@
   margin: 0;
 }
 
-html,
-body {
-  height: 100vh;
+html {
+    font-size: 16px;
+}
+@media (1000px < width) {
+    html {
+        font-size: 16px;
+    }
+}
+@media (2500px < width) {
+    html {
+        font-size: 26px;
+    }
+}
+@media (4000px < width) {
+    html {
+        font-size: 36px;
+    }
+}
+@media (5500px < width) {
+    html {
+        font-size: 46px;
+    }
+}
+@media (7000px < width) {
+    html {
+        font-size: 56px;
+    }
 }
 
 body {
-  margin: 0;
+  display: flex;
+  height: 100vh;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   background: radial-gradient(1200px 600px at 10% 10%, rgba(107, 73, 255, 0.08), transparent),
     linear-gradient(180deg, var(--bg), #090217 80%);
   color: #e8e7ff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
 }
