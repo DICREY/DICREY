@@ -41,38 +41,5 @@ export class ProyectosComponent {
         { name: 'SQL', icon: 'matfDatabaseUncolored' }
       ]
     },
-    {
-      id: 4,
-      title: 'Task Manager Pro',
-      description: 'Gestor de tareas con categorización, recordatorios, colaboración en equipo y sincronización en la nube.',
-      image: 'assets/project4.jpg',
-      technologies: [
-        { name: 'Angular', icon: '🅰️' },
-        { name: 'MongoDB', icon: '🍃' },
-        { name: 'Express', icon: '⚡' }
-      ]
-    },
-    {
-      id: 5,
-      title: 'Portfolio Website',
-      description: 'Sitio web personal con portafolio de proyectos, blog de artículos y formulario de contacto automático.',
-      image: 'assets/project5.jpg',
-      technologies: [
-        { name: 'Next.js', icon: '▲' },
-        { name: 'React', icon: '⚛️' },
-        { name: 'Tailwind', icon: '🎯' }
-      ]
-    },
-    {
-      id: 6,
-      title: 'Real Estate Platform',
-      description: 'Plataforma inmobiliaria con búsqueda de propiedades, tours virtuales, financiamiento y notificaciones.',
-      image: 'assets/project6.jpg',
-      technologies: [
-        { name: 'Angular', icon: '🅰️' },
-        { name: 'PostgreSQL', icon: '🐘' },
-        { name: 'Maps API', icon: '🗺️' }
-      ]
-    }
   ]);
 }
