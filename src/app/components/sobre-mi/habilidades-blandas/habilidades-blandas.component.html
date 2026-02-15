@@ -1,0 +1,10 @@
+<div class="sm-card">
+    <h3>Habilidades Blandas</h3>
+    <div class="badges">
+        @for (item of softSkills(); track $index) {
+            <span>
+                {{ item.name }}
+            </span>
+        }
+    </div>
+</div>
