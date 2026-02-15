@@ -6,3 +6,8 @@ export interface Project {
     image: string
     link: string
 }
+
+export interface Technology {
+  name: string;
+  icon: string;
+}

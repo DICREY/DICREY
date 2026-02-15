@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   template: `
     <div class="sm-image">
-      <img src="assets/profile.jpg" alt="Foto sobre mí" />
+      <img src="assets/MyPhoto.jpg" alt="Foto sobre mí" />
     </div>
   `,
   styles: [

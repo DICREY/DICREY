@@ -6,9 +6,9 @@
   justify-content: center;
   background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
   padding: .8rem 1.2rem;
-  border-radius: .8rem;
   backdrop-filter: blur(.4rem);
   box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+  z-index: 1000;
 }
 
 .nav {

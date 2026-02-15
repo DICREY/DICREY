@@ -1,6 +1,8 @@
 // Libraries
 import { Component, signal } from '@angular/core';
 import { NgIcon, provideIcons } from "@ng-icons/core";
+import { matfDatabaseUncolored } from '@ng-icons/material-file-icons/uncolored'
+import { simpleMongodb, simpleLinux, simpleArchlinux } from '@ng-icons/simple-icons'
 import { 
   matfReactColored,
   matfAngularColored,
@@ -11,7 +13,6 @@ import {
   matfGitColored,
   matfDockerColored
 } from '@ng-icons/material-file-icons/colored'
-import { simpleLinux, simpleArchlinux } from '@ng-icons/simple-icons'
 
 // Decor
 @Component({
@@ -24,6 +25,8 @@ import { simpleLinux, simpleArchlinux } from '@ng-icons/simple-icons'
       matfTypescriptDefColored,
       matfJavascriptColored,
       matfPythonColored,
+      matfDatabaseUncolored,
+      simpleMongodb,
       matfNodejsColored,
       matfGitColored,
       matfDockerColored,
@@ -44,6 +47,8 @@ export class SobreMiHabilidadesComponent {
     { name: 'TypeScript', icon: 'matfTypescriptDefColored' },
     { name: 'JavaScript', icon: 'matfJavascriptColored' },
     { name: 'Python', icon: 'matfPythonColored' },
+    { name: 'SQL', icon: 'matfDatabaseUncolored' },
+    { name: 'NoSQL', icon: 'simpleMongodb' },
     { name: 'NodeJS', icon: 'matfNodejsColored' },
     { name: 'docker', icon: 'matfDockerColored' },
     { name: 'Git & Github', icon: 'matfGitColored' },
