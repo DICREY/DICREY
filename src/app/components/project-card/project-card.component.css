@@ -56,6 +56,27 @@ p {
     flex: 1;
 }
 
+a {
+    color: var(--muted);
+    font-size: var(--sm);
+    line-height: 1.5;
+    flex: 1;
+}
+
+a:last-of-type {
+    margin: 0 0 0.75rem 0;
+}
+
+.link {
+    text-decoration: underline;
+    color: var(--accent);
+    transition: all .3s ease-in-out;
+}
+
+.link:hover {
+    color: var(--accent-500);
+}
+
 .technologies {
     display: flex;
     flex-wrap: wrap;

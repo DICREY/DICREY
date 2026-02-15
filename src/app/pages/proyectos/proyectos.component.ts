@@ -21,7 +21,9 @@ export class ProyectosComponent {
       id: 1,
       title: 'E-Commerce',
       description: 'Plataforma de tienda en línea con carrito de compras, gestión de inventario y sistema de pagos integrado.',
-      image: 'assets/project1.jpg',
+      image: 'assets/projects/Ecommerce.png',
+      github: 'https://github.com/DICREY/Our-first-e-Commerce',
+      link: 'https://ecommerce-thefour.netlify.app/',
       technologies: [
         { name: 'React', icon: 'matfReactColored' },
         { name: 'Express.js', icon: '🟢' },
@@ -34,6 +36,8 @@ export class ProyectosComponent {
       title: 'PetsHeaven',
       description: 'Plataforma de gestión de una Clinica Veterinaria Citas, Usuarios, Mascotas, Historial Médico',
       image: 'assets/project2.jpg',
+      github: 'https://github.com/DICREY/PetsHeaven',
+      link: 'https://github.com/DICREY/PetsHeaven',
       technologies: [
         { name: 'React', icon: 'matfReactColored' },
         { name: 'Express.js', icon: '📊' },

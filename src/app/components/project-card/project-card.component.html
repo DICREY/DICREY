@@ -5,6 +5,10 @@
     <div class="card-content">
         <h3>{{ project.title }}</h3>
         <p>{{ project.description }}</p>
+        
+        <a [href]="project.github">Github: <span class="link">{{project.github}}</span></a>
+        <a [href]="project.link">Deploy: <span class="link">{{project.link}}</span></a>
+        
         <div class="technologies">
             <span class="tech-badge" *ngFor="let tech of project.technologies">
                 <span class="tech-icon">
