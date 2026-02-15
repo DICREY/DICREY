@@ -1,10 +1,13 @@
 // Libraries 
 import { Component } from '@angular/core';
-import { SobreMiImageComponent } from '../../components/sobre-mi/image.component';
+
+// Imports 
+import { SobreMiImageComponent } from '../../components/sobre-mi/image.component/image.component';
 import { SobreMiDescripcionComponent } from '../../components/sobre-mi/descripcion/descripcion.component';
 import { SobreMiHistorialComponent } from '../../components/sobre-mi/historial.component/historial.component';
 import { SobreMiHabilidadesComponent } from '../../components/sobre-mi/habilidades/habilidades.component';
 import { SobreMiHabilidadesBlandasComponent } from 'src/app/components/sobre-mi/habilidades-blandas/habilidades-blandas.component';
+import { ExperienciasLaboralesComponent } from 'src/app/components/sobre-mi/experiencias-laborales/experiencias-laborales.component';
 
 // Decor
 @Component({
@@ -14,6 +17,7 @@ import { SobreMiHabilidadesBlandasComponent } from 'src/app/components/sobre-mi/
     SobreMiImageComponent,
     SobreMiDescripcionComponent,
     SobreMiHistorialComponent,
+    ExperienciasLaboralesComponent,
     SobreMiHabilidadesComponent,
     SobreMiHabilidadesBlandasComponent
   ],

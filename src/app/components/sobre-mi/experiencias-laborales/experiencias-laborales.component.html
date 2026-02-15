@@ -1,0 +1,12 @@
+<div class="sm-card">
+    <h3>Experiencias Laborales</h3>
+    <ul>
+        @for (item of experiencias(); track $index) {
+            <li>
+                <strong class="sm-card-strong">{{ item.nombre }}</strong>
+                <p><strong>Tiempo:</strong> {{ item.tiempo }}</p>
+                <p><strong>Referencia Laboral:</strong> {{ item.contacto }}</p>
+            </li>
+        }
+    </ul>
+</div>
