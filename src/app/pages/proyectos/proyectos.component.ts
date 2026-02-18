@@ -45,5 +45,30 @@ export class ProyectosComponent {
         { name: 'SQL', icon: 'matfDatabaseUncolored' }
       ]
     },
+    {
+      id: 3,
+      title: 'THEFOUR',
+      description: 'Backend en python de una Plataforma de gestión de una Clinica Veterinaria Citas, Usuarios, Mascotas, Historial Médico',
+      image: 'assets/project2.jpg',
+      github: 'https://github.com/DICREY/THE-FOUR',
+      link: '',
+      technologies: [
+        { name: 'Python', icon: 'matfPythonColored' },
+        { name: 'SQL', icon: 'matfDatabaseUncolored' }
+      ]
+    },
+    {
+      id: 3,
+      title: 'TacosNorbertoChilito',
+      description: 'Software de escritorio para gestionar Contabilidad, Inventario y Usuarios de una empresa de tacos',
+      image: 'assets/project2.jpg',
+      github: 'https://github.com/DICREY/TacosNorbertoChilito',
+      link: '',
+      technologies: [
+        { name: 'Tkinter', icon: 'matfPythonColored' },
+        { name: 'Python', icon: 'matfPythonColored' },
+        { name: 'SQL', icon: 'matfDatabaseUncolored' }
+      ]
+    },
   ]);
 }
